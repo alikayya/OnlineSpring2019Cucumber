@@ -9,6 +9,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -46,6 +47,12 @@ public class LoginStepDefinitions {
         String username = ConfigurationReader.getProperty("driverusername");
         String password = ConfigurationReader.getProperty("driverpassword");
         pages.loginPage().login(username, password);
+    }
+
+
+    @When("user logs in as a {string}")
+    public void user_logs_in_as_a(String username) {
+        pages.loginPage().login(username);
     }
 
 
