@@ -1,4 +1,4 @@
-package com.vytrack.pages.activites;
+package com.vytrack.pages.activities;
 
 import com.vytrack.utilities.BasePage;
 import com.vytrack.utilities.BrowserUtils;
@@ -218,5 +218,10 @@ public class CalendarEventsPage extends BasePage {
 
     public String getEndTime() {
         return endTime.getAttribute("value");
+    }
+
+    public List<String> getTableHeaders(){
+        BrowserUtils.waitForStaleElement(createCalendarEventBtn);
+        return BrowserUtils.getElementsText(headers);
     }
 }

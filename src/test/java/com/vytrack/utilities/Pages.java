@@ -1,6 +1,6 @@
 package com.vytrack.utilities;
 
-import com.vytrack.pages.activites.CalendarEventsPage;
+import com.vytrack.pages.activities.CalendarEventsPage;
 import com.vytrack.pages.dashboards.DashboardPage;
 import com.vytrack.pages.dashboards.ManageDashboards;
 import com.vytrack.pages.fleet.VehiclesPage;

@@ -6,9 +6,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         plugin = {
+                "json:target/cucumber.json",
                 "html:target/default-cucumber-reports"
         },
-        tags = {"@vehicles"},
+        tags = {"@calendar_events"},
         features = {"src/test/resources/features" //to specify where are the features
         },
         //feature contains scenarios

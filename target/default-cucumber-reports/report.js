@@ -1,21 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src\\test\\resources\\features\\fleet\\vehicles\\Vehicles.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src\\test\\resources\\features\\activities\\calendar_events\\AllCalendarEvents.feature");
 formatter.feature({
-  "name": "Vehicles",
-  "description": "  As user I want to see list of all vehicles",
+  "name": "All Calendar Events",
+  "description": "  As user I want to be able to see all calendar events as a table",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@vehicles"
+      "name": "@calendar_events"
     }
   ]
 });
 formatter.scenario({
-  "name": "Login as driver and navigate to the Vehicles",
+  "name": "Verify column names",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@vehicles"
+      "name": "@calendar_events"
     }
   ]
 });
@@ -23,28 +23,18 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user is on the landing page",
+  "name": "user logs in as a store manager",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+  "location": "LoginStepDefinitions.user_logs_in_as_a_store_manager()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user logs in as a \"driver\"",
+  "name": "user navigates to \"Activities\" and \"Calendar Events\"",
   "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user navigates to \"Fleet\" and \"Vehicles\"",
-  "keyword": "Then "
 });
 formatter.match({
   "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
@@ -53,21 +43,48 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies that \"Cars\" page name is displayed",
-  "keyword": "And "
+  "name": "following table headers should be displayed",
+  "rows": [
+    {
+      "cells": [
+        "TITLE"
+      ]
+    },
+    {
+      "cells": [
+        "CALENDAR"
+      ]
+    },
+    {
+      "cells": [
+        "START"
+      ]
+    },
+    {
+      "cells": [
+        "END"
+      ]
+    },
+    {
+      "cells": [
+        "RECURRENT"
+      ]
+    },
+    {
+      "cells": [
+        "RECURRENCE"
+      ]
+    },
+    {
+      "cells": [
+        "INVITATION STATUS"
+      ]
+    }
+  ],
+  "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefinitions.user_verifies_that_page_name_is_displayed(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user verifies that default page number is 1",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "VehiclesStepDefinitions.user_verifies_that_default_page_number_is(Integer)"
+  "location": "CalendarEventsStepDefinitions.following_table_headers_should_be_displayed(String\u003e)"
 });
 formatter.result({
   "status": "passed"

@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4564826500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify column names",
+        "description": "",
+        "id": "all-calendar-events;verify-column-names",
+        "after": [
+          {
+            "result": {
+              "duration": 665970300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4004960600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as a store manager",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_a_store_manager()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2561136400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"Activities\" and \"Calendar Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 35
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1060116800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "following table headers should be displayed",
+            "match": {
+              "location": "CalendarEventsStepDefinitions.following_table_headers_should_be_displayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TITLE"
+                ]
+              },
+              {
+                "cells": [
+                  "CALENDAR"
+                ]
+              },
+              {
+                "cells": [
+                  "START"
+                ]
+              },
+              {
+                "cells": [
+                  "END"
+                ]
+              },
+              {
+                "cells": [
+                  "RECURRENT"
+                ]
+              },
+              {
+                "cells": [
+                  "RECURRENCE"
+                ]
+              },
+              {
+                "cells": [
+                  "INVITATION STATUS"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calendar_events"
+          }
+        ]
+      }
+    ],
+    "name": "All Calendar Events",
+    "description": "  As user I want to be able to see all calendar events as a table",
+    "id": "all-calendar-events",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\activities\\calendar_events\\AllCalendarEvents.feature",
+    "tags": [
+      {
+        "name": "@calendar_events",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
