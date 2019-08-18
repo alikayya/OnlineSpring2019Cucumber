@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        tags = {"@login_with_outline_3"},
-        features = {"src/test/resources/features" //to specify where are the features
+
+        features = {"@target/rerun.txt" //to specify where are the features
         },
         //feature contains scenarios
         //every scenario is like a test
@@ -21,5 +21,6 @@ import org.junit.runner.RunWith;
         //you will see them in the console output
         dryRun = false
 )
-public class CukesRunner {
+public class FailedRunner {
+
 }

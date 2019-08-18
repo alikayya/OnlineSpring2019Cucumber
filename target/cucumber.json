@@ -1,12 +1,12 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 4564826500,
+              "duration": 4511491200,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Verify column names",
+        "line": 72,
+        "name": "page titles with different users",
         "description": "",
-        "id": "all-calendar-events;verify-column-names",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;2",
         "after": [
           {
             "result": {
-              "duration": 665970300,
+              "duration": 655870400,
               "status": "passed"
             },
             "match": {
@@ -30,26 +30,412 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4004960600,
+              "duration": 649780300,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user logs in as a store manager",
+            "line": 67,
+            "name": "user logs in as a \"driver\"",
             "match": {
-              "location": "LoginStepDefinitions.user_logs_in_as_a_store_manager()"
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2561136400,
+              "duration": 3224578300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 68,
+            "name": "user navigates to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3266559400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"Car - Entities - System - Car - Entities - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Car - Entities - System - Car - Entities - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3944927000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;3",
+        "after": [
+          {
+            "result": {
+              "duration": 673882600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4061487200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726169300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Fleet\" and \"Vehicles Model\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles Model\"",
+                  "offset": 30
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2669777300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"Vehicles Model - Entities - System - Car - Entities - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vehicles Model - Entities - System - Car - Entities - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3842306400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;4",
+        "after": [
+          {
+            "result": {
+              "duration": 675246700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3967208600,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 707498400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Customers\" and \"Accounts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Accounts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2630766100,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"Accounts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accounts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3898432900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;5",
+        "after": [
+          {
+            "result": {
+              "duration": 661938000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3961376700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 675613600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Customers\" and \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3152809500,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"Contacts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contacts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3884896000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;6",
+        "after": [
+          {
+            "result": {
+              "duration": 656815900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3830443000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 685187900,
+              "status": "passed"
+            },
+            "line": 68,
             "name": "user navigates to \"Activities\" and \"Calendar Events\"",
             "match": {
               "arguments": [
@@ -64,79 +450,1274 @@
               ],
               "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
             },
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1060116800,
+              "duration": 2640117900,
               "status": "passed"
             },
-            "line": 7,
-            "name": "following table headers should be displayed",
+            "line": 69,
+            "name": "the page title should be \"Calendar Events - Activities\"",
             "match": {
-              "location": "CalendarEventsStepDefinitions.following_table_headers_should_be_displayed(String\u003e)"
+              "arguments": [
+                {
+                  "val": "\"Calendar Events - Activities\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
             },
-            "rows": [
-              {
-                "cells": [
-                  "TITLE"
-                ]
-              },
-              {
-                "cells": [
-                  "CALENDAR"
-                ]
-              },
-              {
-                "cells": [
-                  "START"
-                ]
-              },
-              {
-                "cells": [
-                  "END"
-                ]
-              },
-              {
-                "cells": [
-                  "RECURRENT"
-                ]
-              },
-              {
-                "cells": [
-                  "RECURRENCE"
-                ]
-              },
-              {
-                "cells": [
-                  "INVITATION STATUS"
-                ]
-              }
-            ],
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@calendar_events"
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3889896100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;7",
+        "after": [
+          {
+            "result": {
+              "duration": 654238800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4297989400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 699591600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"System\" and \"Jobs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"System\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Jobs\"",
+                  "offset": 31
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2641702300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"Jobs - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jobs - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3904884900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;8",
+        "after": [
+          {
+            "result": {
+              "duration": 663392900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4208481900,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2244624800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2261629100,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Car - Entities - System - Car - Entities - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Car - Entities - System - Car - Entities - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3838271200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;9",
+        "after": [
+          {
+            "result": {
+              "duration": 657625000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4067282500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2317096700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Fleet\" and \"Vehicles Model\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles Model\"",
+                  "offset": 30
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1604174800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Vehicles Model - Entities - System - Car - Entities - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Vehicles Model - Entities - System - Car - Entities - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3827463300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;10",
+        "after": [
+          {
+            "result": {
+              "duration": 661578900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 863804400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4129631600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Customers\" and \"Accounts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Accounts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2803618600,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Accounts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Accounts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3948434800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;11",
+        "after": [
+          {
+            "result": {
+              "duration": 663032600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4088072300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2318248200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Customers\" and \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2131831600,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Contacts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Contacts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3924089800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;12",
+        "after": [
+          {
+            "result": {
+              "duration": 676036600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4137560100,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2381152700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Activities\" and \"Calendar Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 35
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1606191200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Calendar Events - Activities\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Calendar Events - Activities\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3982549700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 83,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;13",
+        "after": [
+          {
+            "result": {
+              "duration": 638401700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4226987800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2408076300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"System\" and \"Jobs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"System\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Jobs\"",
+                  "offset": 31
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2247072000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Jobs - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Jobs - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3863476700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 84,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;14",
+        "after": [
+          {
+            "result": {
+              "duration": 648230100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3988366800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2300850300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2242127300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Car - Entities - System - Car - Entities - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Car - Entities - System - Car - Entities - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3877373200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 85,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;15",
+        "after": [
+          {
+            "result": {
+              "duration": 665148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4125405200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2424615600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Fleet\" and \"Vehicles Model\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles Model\"",
+                  "offset": 30
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1608939700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Vehicles Model - Entities - System - Car - Entities - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Vehicles Model - Entities - System - Car - Entities - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3978317800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;16",
+        "after": [
+          {
+            "result": {
+              "duration": 667574900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4152750700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2887024500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Customers\" and \"Accounts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Accounts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2117783600,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Accounts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Accounts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3898350200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;17",
+        "after": [
+          {
+            "result": {
+              "duration": 678219700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4224406000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2452492200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Customers\" and \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2148112000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Contacts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Contacts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3971145500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;18",
+        "after": [
+          {
+            "result": {
+              "duration": 657076400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4280425100,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2288752100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"Activities\" and \"Calendar Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 35
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1599659700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Calendar Events - Activities\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Calendar Events - Activities\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3907587300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 89,
+        "name": "page titles with different users",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;page-titles-with-different-users;user-and-navigation-info;19",
+        "after": [
+          {
+            "result": {
+              "duration": 660239500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4015881400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2381819800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to \"System\" and \"Jobs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"System\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Jobs\"",
+                  "offset": 31
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1585495400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the page title should be \"All - Jobs - System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All - Jobs - System\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TopMenuStepDefinitions.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_outline_3"
           }
         ]
       }
     ],
-    "name": "All Calendar Events",
-    "description": "  As user I want to be able to see all calendar events as a table",
-    "id": "all-calendar-events",
+    "name": "As user I want to login under different roles",
+    "description": "",
+    "id": "as-user-i-want-to-login-under-different-roles",
     "keyword": "Feature",
-    "uri": "src\\test\\resources\\features\\activities\\calendar_events\\AllCalendarEvents.feature",
-    "tags": [
-      {
-        "name": "@calendar_events",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "src\\test\\resources\\features\\login\\Login.feature",
+    "tags": []
   }
 ]

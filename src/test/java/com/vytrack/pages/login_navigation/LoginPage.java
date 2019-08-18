@@ -56,11 +56,11 @@ public class LoginPage {
              username = ConfigurationReader.getProperty("driverusername");
              password = ConfigurationReader.getProperty("driverpassword");
         }
-        else if(role.equalsIgnoreCase("storemanager")){
+        else if(role.equalsIgnoreCase("store manager")){
             username = ConfigurationReader.getProperty("storemanagerusername");
             password = ConfigurationReader.getProperty("storemanagerpassword");
         }
-        else if(role.equalsIgnoreCase("salesmanager")){
+        else if(role.equalsIgnoreCase("sales manager")){
             username = ConfigurationReader.getProperty("salesmanagerusername");
             password = ConfigurationReader.getProperty("salesmanagerpassword");
         }

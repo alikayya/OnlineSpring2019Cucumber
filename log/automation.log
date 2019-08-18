@@ -1,0 +1,266 @@
+2019-08-18 15:35:28 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:35:41 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:35:53 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:36:07 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:36:20 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:36:29 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:36:39 [main] ERROR BasePage:77 - Failed to click on :: Fleet
+2019-08-18 15:36:39 [main] ERROR BasePage:78 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:36:44 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f824d1dd7891c1ea0b4df8d4fd6ab667
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:36:44 [main] ERROR BrowserUtils:129 - Attempt :: 1
+2019-08-18 15:36:50 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f824d1dd7891c1ea0b4df8d4fd6ab667
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:36:50 [main] ERROR BrowserUtils:129 - Attempt :: 2
+2019-08-18 15:36:54 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: RemoteWebDriver
+2019-08-18 15:36:54 [main] ERROR BrowserUtils:129 - Attempt :: 3
+2019-08-18 15:37:01 [main] ERROR BrowserUtils:127 - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f824d1dd7891c1ea0b4df8d4fd6ab667
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:37:01 [main] ERROR BrowserUtils:129 - Attempt :: 4
+2019-08-18 15:37:08 [main] ERROR BrowserUtils:127 - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f824d1dd7891c1ea0b4df8d4fd6ab667
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:37:08 [main] ERROR BrowserUtils:129 - Attempt :: 5
+2019-08-18 15:37:15 [main] ERROR BasePage:87 - Failed to click on :: Vehicles
+2019-08-18 15:37:15 [main] ERROR BasePage:88 - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f824d1dd7891c1ea0b4df8d4fd6ab667
+*** Element info: {Using=xpath, value=//span[normalize-space()='Vehicles' and contains(@class, 'title title-level-2')]}
+2019-08-18 15:40:08 [main] ERROR BasePage:56 - Loader mask doesn't present.
+2019-08-18 15:40:08 [main] ERROR BasePage:57 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on XP (78fedf0f3b3654ecaf3c38907f29e918)] -> css selector: div[class='loader-mask shown']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78fedf0f3b3654ecaf3c38907f29e918
+2019-08-18 15:40:20 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:40:33 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:40:47 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:40:59 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:41:11 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 15:41:21 [main] ERROR BasePage:77 - Failed to click on :: Fleet
+2019-08-18 15:41:21 [main] ERROR BasePage:78 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:41:26 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fdad1f96f043c4a599c502f9f91e850
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:41:26 [main] ERROR BrowserUtils:129 - Attempt :: 1
+2019-08-18 15:41:32 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fdad1f96f043c4a599c502f9f91e850
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:41:32 [main] ERROR BrowserUtils:129 - Attempt :: 2
+2019-08-18 15:41:38 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fdad1f96f043c4a599c502f9f91e850
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:41:38 [main] ERROR BrowserUtils:129 - Attempt :: 3
+2019-08-18 15:41:44 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fdad1f96f043c4a599c502f9f91e850
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:41:44 [main] ERROR BrowserUtils:129 - Attempt :: 4
+2019-08-18 15:41:50 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fdad1f96f043c4a599c502f9f91e850
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:41:50 [main] ERROR BrowserUtils:129 - Attempt :: 5
+2019-08-18 15:41:56 [main] ERROR BasePage:87 - Failed to click on :: Vehicles
+2019-08-18 15:41:56 [main] ERROR BasePage:88 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[normalize-space()='Vehicles' and contains(@class, 'title title-level-2')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:42:11 [main] ERROR BasePage:77 - Failed to click on :: Fleet
+2019-08-18 15:42:11 [main] ERROR BasePage:78 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:42:17 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9bf4fcf18c762ddb6ed7d6f7a0dc0bfd
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:42:17 [main] ERROR BrowserUtils:129 - Attempt :: 1
+2019-08-18 15:42:23 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9bf4fcf18c762ddb6ed7d6f7a0dc0bfd
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:42:23 [main] ERROR BrowserUtils:129 - Attempt :: 2
+2019-08-18 15:42:29 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9bf4fcf18c762ddb6ed7d6f7a0dc0bfd
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:42:29 [main] ERROR BrowserUtils:129 - Attempt :: 3
+2019-08-18 15:42:35 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9bf4fcf18c762ddb6ed7d6f7a0dc0bfd
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:42:35 [main] ERROR BrowserUtils:129 - Attempt :: 4
+2019-08-18 15:42:41 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9bf4fcf18c762ddb6ed7d6f7a0dc0bfd
+*** Element info: {Using=xpath, value=//span[normalize-space()='Fleet' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:42:41 [main] ERROR BrowserUtils:129 - Attempt :: 5
+2019-08-18 15:42:47 [main] ERROR BasePage:87 - Failed to click on :: Vehicles Model
+2019-08-18 15:42:47 [main] ERROR BasePage:88 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[normalize-space()='Vehicles Model' and contains(@class, 'title title-level-2')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:43:02 [main] ERROR BasePage:77 - Failed to click on :: Customers
+2019-08-18 15:43:02 [main] ERROR BasePage:78 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Customers' and contains(@class, 'title title-level-1')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:43:07 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c1950055f86b6898df82539ba43c34b2
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:43:07 [main] ERROR BrowserUtils:129 - Attempt :: 1
+2019-08-18 15:43:13 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c1950055f86b6898df82539ba43c34b2
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:43:13 [main] ERROR BrowserUtils:129 - Attempt :: 2
+2019-08-18 15:43:19 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c1950055f86b6898df82539ba43c34b2
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:43:19 [main] ERROR BrowserUtils:129 - Attempt :: 3
+2019-08-18 15:43:25 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c1950055f86b6898df82539ba43c34b2
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:43:25 [main] ERROR BrowserUtils:129 - Attempt :: 4
+2019-08-18 15:43:31 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c1950055f86b6898df82539ba43c34b2
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:43:31 [main] ERROR BrowserUtils:129 - Attempt :: 5
+2019-08-18 15:43:37 [main] ERROR BasePage:87 - Failed to click on :: Accounts
+2019-08-18 15:43:37 [main] ERROR BasePage:88 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[normalize-space()='Accounts' and contains(@class, 'title title-level-2')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:43:52 [main] ERROR BasePage:77 - Failed to click on :: Customers
+2019-08-18 15:43:52 [main] ERROR BasePage:78 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Customers' and contains(@class, 'title title-level-1')] (tried for 5 second(s) with 500 milliseconds interval)
+2019-08-18 15:43:58 [main] ERROR BrowserUtils:127 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3L9H75', ip: '10.0.0.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\zer0\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 439cfae0ffc88f7288ba1734431763cf
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+2019-08-18 15:43:58 [main] ERROR BrowserUtils:129 - Attempt :: 1
+2019-08-18 15:53:31 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:02:06 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:02:18 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:02:30 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:02:43 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:02:54 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:03:07 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:03:20 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:03:32 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:03:45 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:03:58 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:04:10 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:04:24 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:04:37 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:04:50 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:05:03 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:05:17 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:05:30 [main] INFO  BasePage:54 - Loader mask gone...
+2019-08-18 16:05:42 [main] INFO  BasePage:54 - Loader mask gone...
